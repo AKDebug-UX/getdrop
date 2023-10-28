@@ -11,11 +11,14 @@ const App = () => {
   return (
     <div className="overflow-x-hidden">
       <Hero />
-      <Ecosystem />
-      <BuildBNBChain />
-      <DappBay />
-      <Community />
-      <Footer />
+      <div className="bg-white rounded-t-[40px]">
+        <Hero />
+        <Ecosystem />
+        <BuildBNBChain />
+        <DappBay />
+        <Community />
+        <Footer />
+      </div>
     </div>
   );
 };

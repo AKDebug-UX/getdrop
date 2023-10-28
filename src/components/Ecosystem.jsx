@@ -3,7 +3,7 @@ import hireMe from "../assets/images/hireMe.png";
 
 const Ecosystem = () => {
   return (
-    <section id="hireme" className="py-10 px-3 bg-white rounded-t-[40px] text-white">
+    <section id="hireme" className="py-10 px-3 text-white">
       <div className="text-center">
         <h3 className="text-2xl sm:text-4xl font-semibold">
           Hire <span className="text-cyan-600">Me</span>
