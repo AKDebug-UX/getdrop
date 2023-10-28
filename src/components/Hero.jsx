@@ -40,7 +40,7 @@ const Hero = () => {
   return (
     <div className="">
       <Navbar />
-      <section className="flex py-10 md:flex-row flex-col items-center">
+      <section className="flex py-10 mx-5 md:flex-row flex-col items-center">
         <div className="flex-1">
           <div className="md:text-left text-center">
             <h1 className="md:text-6xl text-5xl md:leading-normal leading-10 text-white font-bold">FREE
