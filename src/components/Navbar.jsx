@@ -5,7 +5,7 @@ const Navbar = () => {
 
   return (
     <nav className={`w-full`}>
-      <div className="flex my-3 items-center justify-between">
+      <div className="flex items-center justify-between">
         <div className="flex mx-7 gap-x-4 items-center justify-center">
           <img
             src={logo}
