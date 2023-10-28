@@ -12,7 +12,6 @@ const App = () => {
     <div className="overflow-x-hidden">
       <Hero />
       <div className="bg-white rounded-t-[40px]">
-        <Hero />
         <Ecosystem />
         <BuildBNBChain />
         <DappBay />

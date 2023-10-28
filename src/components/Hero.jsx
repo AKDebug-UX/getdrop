@@ -38,7 +38,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="bg-gray-600">
+    <div className="">
       <Navbar />
       <section className="flex py-10 md:flex-row flex-col items-center">
         <div className="flex-1">
