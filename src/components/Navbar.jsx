@@ -4,24 +4,10 @@ import logo from "../assets/images/logo.png";
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
   const [open, setOpen] = useState(false);
-  const menuLinks = [
-    { name: "HOME", link: "#home" },
-    { name: "ABOUT", link: "#about" },
-    { name: "SKILLS", link: "#skills" },
-    { name: "PROJECTS", link: "#projects" },
-    { name: "CONTACT", link: "#contact" },
-  ];
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      const nav = document.querySelector("nav");
-      window.scrollY > 0 ? setSticky(true) : setSticky(false);
-    });
-  }, []);
+
   return (
     <nav
-      className={`fixed w-full left-0 top-0 z-[999] ${
-        sticky ? "bg-white/60  text-gray-900" : "text-white"
-      }`}
+      className={`fixed w-full left-0 top-0 z-[999]`}
     >
       <div className="flex items-center justify-between">
         <div className="flex mx-7 gap-x-4 items-center justify-center">
@@ -30,8 +16,8 @@ const Navbar = () => {
             alt=""
             className="w-[50px] h-[50px] object-cover bg-cyan-600 rounded-[50%]"
           />
-          <h4 className="text-4xl uppercase font-bold">
-           U<span className="text-cyan-600">praiser</span>Tech
+          <h4 className="text-4xl text-bnbcolor uppercase font-bold">
+           BNB<span className="font-normal">CHAIN</span>
           </h4>
         </div>
         <div
