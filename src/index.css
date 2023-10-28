@@ -12,7 +12,7 @@ body {
   /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
 .btn-primary {
-  @apply bg-white font-semibold text-white md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2;
+  @apply bg-white font-semibold text-black md:mx-0 mx-auto rounded-lg py-3 px-6 flex items-center gap-2;
 }
 .btn-primary:hover {
   @apply bg-[#F3BA2F];
