@@ -8,7 +8,7 @@ import Community from "./components/Community";
 import Footer from "./components/Footer";
 
 const App = () => {
-  console.clear()
+
   return (
     <div className="overflow-x-hidden">
       <Navbar />
