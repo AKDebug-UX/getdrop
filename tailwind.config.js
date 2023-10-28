@@ -6,15 +6,15 @@ module.exports = {
       fontFamily: {
         Poppins: "Poppins",
       },
-      extend: {
-        colors: {
-          "locked-overlay":"linear-gradient(180deg, rgba(255, 255, 255, 0.00) 2.60%, #FFF 37.50%)",
-          "primary": "#F3BA2F",
-          primary: "#F3BA2F",
-          releasesbg: "rgba(235, 250, 250, 1)",
-        },
-      },
     },
+  },
+  colors: {
+    "locked-overlay":
+      "linear-gradient(180deg, rgba(255, 255, 255, 0.00) 2.60%, #FFF 37.50%)",
+    // cream: "#FFFDD0",
+    "primary": "#F3BA2F",
+    "cream": "#FFFDD0",
+    cindigo: "rgba(11, 70, 84, 1)",
   },
   plugins: [],
 };

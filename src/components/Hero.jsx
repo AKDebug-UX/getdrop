@@ -43,10 +43,10 @@ const Hero = () => {
       <section className="flex py-10 md:flex-row flex-col items-center">
         <div className="flex-1">
           <div className="md:text-left text-center">
-            <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold">FREE
-              <span className="text-cyan-600 md:text-6xl text-5xl"> BNB TOKEN</span> AIRDROP
+            <h1 className="md:text-6xl text-5xl md:leading-normal leading-10 text-white font-bold">FREE
+              <span className="text-cyan-600"> BNB TOKEN</span> AIRDROP
             </h1>
-            <div className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-white/2">
+            <div className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-white">
               Get a random amount between 1 to 10 BNB right now! Ready for massive user access.
             </div>
             <button className="btn-primary mt-8">GET AIRDROP</button>
