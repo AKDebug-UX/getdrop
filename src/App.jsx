@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Ecosystem from "./components/Ecosystem";
 import BuildBNBChain from "./components/BuildBNBChain/index";
@@ -11,7 +10,6 @@ const App = () => {
 
   return (
     <div className="overflow-x-hidden">
-      <Navbar />
       <Hero />
       <Ecosystem />
       <BuildBNBChain />

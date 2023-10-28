@@ -9,10 +9,10 @@ html {
 body {
   @apply box-border bg-white text-black;
   overflow-x: hidden;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
 .btn-primary {
-  @apply bg-cyan-600 font-semibold text-white md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2;
+  @apply bg-[#F3BA2F] font-semibold text-white md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2;
 }
 
 .aboutImg::after {
@@ -46,7 +46,7 @@ textarea {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 1rem;
-  background: rgb(0, 170, 255);
+  background: #F3BA2F;
   transition: all 0.5s ease-in-out;
 }
 

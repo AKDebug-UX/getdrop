@@ -12,7 +12,7 @@ const Navbar = () => {
             alt=""
             className="w-[50px] h-[50px] object-cover bg-cyan-600 rounded-[50%]"
           />
-          <h4 className="text-4xl text-bnbcolor uppercase font-bold">
+          <h4 className="text-4xl text-primary uppercase font-bold">
             BNB<span className="font-normal">CHAIN</span>
           </h4>
         </div>
