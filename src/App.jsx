@@ -5,7 +5,7 @@ import BuildBNBChain from "./components/BuildBNBChain/index";
 import DappBay from "./components/DappBay";
 import Community from "./components/Community";
 import Footer from "./components/Footer";
-import banner from "../assets/banner-bottom-bg.png";
+import banner from "./assets/banner-bottom-bg.png";
 
 const App = () => {
 
