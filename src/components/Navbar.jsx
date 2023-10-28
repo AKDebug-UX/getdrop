@@ -4,7 +4,7 @@ import logo from "../assets/images/logo.png";
 const Navbar = () => {
 
   return (
-    <nav className={`fixed w-full left-0 top-0 z-[999]`}>
+    <nav className={`w-full m-3 left-0 top-0 z-[999]`}>
       <div className="flex items-center justify-between">
         <div className="flex mx-7 gap-x-4 items-center justify-center">
           <img
