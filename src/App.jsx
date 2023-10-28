@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className="overflow-x-hidden">
       <Hero />
-      <div className="bg-white rounded-t-[20rem]">
+      <div className="bg-white rounded-t-[10rem]">
         <Ecosystem />
         <BuildBNBChain />
         <DappBay />
