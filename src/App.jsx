@@ -5,13 +5,15 @@ import BuildBNBChain from "./components/BuildBNBChain/index";
 import DappBay from "./components/DappBay";
 import Community from "./components/Community";
 import Footer from "./components/Footer";
+import banner from "../assets/banner-bottom-bg.png";
 
 const App = () => {
 
   return (
     <div className="overflow-x-hidden">
       <Hero />
-      <div className="bg-white rounded-t-[10rem]">
+      <img className="" src={banner} />
+      <div className="bg-white">
         <Ecosystem />
         <BuildBNBChain />
         <DappBay />
