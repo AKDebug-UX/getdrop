@@ -8,7 +8,7 @@ const DeveloperPrograms = () => {
     <>
       <h1 className="text-2xl sm:text-5xl text-left text-white mt-12 ml-12 font-bold w-full">Developer Programs</h1>
       <div className="relative rounded-2xl w-[90%] mt-6 mx-auto flex flex-col lg:flex-row gap-6 items-center justify-between">
-        <div className="relative bg-black rounded-2xl w-[90%] mx-auto flex flex-col-reverse gap-6 items-center justify-center">
+        <div className="relative bg-black rounded-2xl w-full mx-auto flex flex-col-reverse gap-6 items-center justify-center">
           <div className="flex flex-col px-5 py-6 pb-10 items-center md:items-center">
             <h1 className="text-2xl sm:text-4xl text-white font-bold w-full">Zero2Hero Builder Series</h1>
             <p className="mt-4 text-gray-400 text-[18px]">
@@ -20,10 +20,10 @@ const DeveloperPrograms = () => {
                 className="btn-primary2 text-white border border-white py-4 px-6 mt-3 text-center items-start justify-start hover:text-black hover:bg-white">Learn More</button>
             </a>
           </div>
-          <img src={zero2hero} className="flex w-full md:w-[30rem] md:h-[20rem] right-0 items-end justify-end" />
+          <img src={zero2hero} className="flex w-full md:h-[20rem] rounded-t-2xl right-0 items-end justify-end" />
         </div>
 
-        <div className="relative bg-black rounded-2xl w-[90%] mx-auto flex flex-col-reverse gap-6 items-center justify-center">
+        <div className="relative bg-black rounded-2xl w-full mx-auto flex flex-col-reverse gap-6 items-center justify-center">
           <div className="flex flex-col px-5 py-6 pb-10 items-center md:items-center">
             <h1 className="text-2xl sm:text-4xl text-white font-bold w-full">MVB Program</h1>
             <p className="mt-4 text-gray-400 text-[18px]">
@@ -35,7 +35,7 @@ const DeveloperPrograms = () => {
                 className="btn-primary2 text-white border border-white py-4 px-6 mt-3 text-center items-start justify-start hover:text-black hover:bg-white">Learn More</button>
             </a>
           </div>
-          <img src={mvb} className="flex w-full md:w-[30rem] md:h-[20rem] right-0 items-end justify-end" />
+          <img src={mvb} className="flex w-full md:h-[20rem] rounded-t-2xl right-0 items-end justify-end" />
         </div>
       </div>
     </>

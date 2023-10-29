@@ -38,10 +38,10 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex flex-col-reverse sm:flex-row text-sm p-4 gap-2 text-center items-center justify-between text-black">
+      <div className="flex flex-col-reverse sm:flex-row text-[12px] sm:text-sm py-4 px-12 gap-2 text-center items-center justify-between text-black">
         <div>Copyright © 2018 - {currentYear} bnbchain.org. All Rights reserved.</div>
         <button className="flex hover:text-[#F3BA2F] gap-2 items-center justify-center">
-          <ion-icon name="logo-discord"></ion-icon>English
+          <ion-icon name="globe-outline"></ion-icon>English
           <ion-icon name="chevron-down-outline"></ion-icon>
         </button>
       </div>

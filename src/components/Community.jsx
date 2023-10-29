@@ -2,6 +2,7 @@ import React from "react";
 import wallet from "../assets/images/wallet.png";
 import GetBNB from "../assets/images/GetBNB.png";
 import dApp from "../assets/images/dApp.png";
+import { Telegram } from "@material-ui/icons";
 
 const Community = () => {
   return (
@@ -16,26 +17,26 @@ const Community = () => {
           with developers,<br /> validators, users, HODLers and enthusiasts.</p>
       </div>
 
-      <div className="py-5 mx-auto mt-6 mb-4 gap-5 md:flex md:flex-row grid grid-cols-3 items-center justify-center w-full md:w-[80%]">
+      <div className="py-5 mx-auto mt-6 mb-4 gap-5 text-[20px] font-bold md:flex md:flex-row grid grid-cols-3 items-center justify-center w-full md:w-[80%]">
         <a className="bg-white px-9 py-5 rounded-2xl flex flex-col gap-4 items-center hover:text-white hover:bg-[#5765f1] shadow-lg w-full" href="https://discord.com/invite/QRTQvfhADQ">
-        <ion-icon name="logo-discord"></ion-icon>
-          <div>Discord</div>
+          <ion-icon name="logo-discord"></ion-icon>
+          <div className="text-[17px]">Discord</div>
         </a>
         <a className="bg-white px-9 py-5 rounded-2xl flex flex-col gap-4 items-center hover:text-white hover:bg-[#00acee] shadow-lg w-full" href="https://twitter.com/BNBChain">
-        <ion-icon name="logo-twitter"></ion-icon>
-          <div>Twitter</div>
+          <ion-icon name="logo-twitter"></ion-icon>
+          <div className="text-[17px]">Twitter</div>
         </a>
         <a className="bg-white px-9 py-5 rounded-2xl flex flex-col gap-4 items-center hover:text-white hover:bg-[#FF0000] shadow-lg w-full" href="https://www.youtube.com/channel/UCG9fZu6D4I83DStktBV0Ryw">
-          <img src={GetBNB} className="w-6 h-6" />
-          <div>YouTube</div>
+          <ion-icon name="logo-youtube"></ion-icon>
+          <div className="text-[17px]">YouTube</div>
         </a>
         <a className="bg-white px-9 py-5 rounded-2xl flex flex-col gap-4 items-center hover:text-white hover:bg-[#0088cc] shadow-lg w-full" href="https://t.me/bnbchain">
-        <ion-icon name="logo-telegram"></ion-icon>
-          <div>Telegram</div>
+          <Telegram />
+          <div className="text-[17px]">Telegram</div>
         </a>
         <a className="bg-white px-9 py-5 rounded-2xl flex flex-col gap-4 items-center hover:text-white hover:bg-black shadow-lg w-full" href="https://github.com/bnb-chain">
-          <img src={GetBNB} className="w-6 h-6" />
-          <div>GitHub</div>
+          <ion-icon name="logo-github"></ion-icon>
+          <div className="text-[17px]">GitHub</div>
         </a>
       </div>
     </section>
