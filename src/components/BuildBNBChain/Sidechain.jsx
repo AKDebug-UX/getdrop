@@ -28,7 +28,7 @@ const Sidechain = () => {
         </div>
       </div>
 
-      <div className="flex px-5 gap-4 md:flex-row flex-col text-left items-start justify-between md:px-[6%]">
+      <div className="flex px-5 gap-4 mb-12 md:flex-row flex-col text-left items-start justify-between md:px-[6%]">
         <div className="flex flex-col items-start justify-start text-white w-full">
           <h1 className="text-[20px] sm:text-2xl font-bold"><span className="text-[20px] text-[#F3BA2F]">// </span>Integration</h1>
           <div className="text-gray-400 mt-2 text-left text-[15px]">Projects that own a BNB Sidechain are also a part of the broader BNB Chain ecosystem.</div>
