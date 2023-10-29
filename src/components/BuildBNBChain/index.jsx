@@ -2,6 +2,7 @@ import React from "react";
 import buildbg from "../../assets/images/build-code-bg.png";
 import BNBChain from "./BNBChain";
 import Sidechain from "./Sidechain";
+import DeveloperPrograms from "./DeveloperPrograms";
 import Greenfield from "./Greenfield";
 
 const BuildBNBChain = () => {
@@ -12,6 +13,7 @@ const BuildBNBChain = () => {
       <div className="text-white text-center">
         <BNBChain />
         <Greenfield />
+        <DeveloperPrograms />
         <Sidechain />
       </div>
     </section>

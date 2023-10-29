@@ -1,27 +1,44 @@
 import React from "react";
-import buildbg from "../../assets/images/home-sm.png";
+import zero2hero from "../../assets/images/zero2hero.png";
+import mvb from "../../assets/images/mvb.png";
 
 const DeveloperPrograms = () => {
 
   return (
-    <div className="relative bg-black rounded-2xl w-[90%] mx-auto flex flex-col-reverse lg:flex-row gap-6 items-center justify-between">
-      <div className="flex flex-col px-5 py-12 items-center md:items-start">
-        <h1 className="text-2xl sm:text-5xl text-left text-[#2d8749] font-bold w-full">BNB Greenfield</h1>
-        <p className="mt-4 text-white text-left text-[20px]">
-          A Decentralized Data Storage System and Economy
-        </p>
-        <p className="mt-4 text-gray-400 text-left text-[18px]">
-          BNB Greenfield is decentralized storage infrastructure within the
-          broader BNB Chain ecosystem where users and dApps can create,
-          store and exchange data with full ownership to form a new data economy.
-        </p>
-        <a href="">
-          <button
-            className="btn-primary2 text-white border border-white py-4 px-6 mt-3 text-center items-start justify-start hover:text-black hover:bg-white">Learn More</button>
-        </a>
+    <>
+      <h1 className="text-2xl sm:text-5xl text-left text-white mt-12 ml-12 font-bold w-full">Developer Programs</h1>
+      <div className="relative rounded-2xl w-[90%] mt-6 mx-auto flex flex-col lg:flex-row gap-6 items-center justify-between">
+        <div className="relative bg-black rounded-2xl w-[90%] mx-auto flex flex-col-reverse gap-6 items-center justify-center">
+          <div className="flex flex-col px-5 py-6 pb-10 items-center md:items-center">
+            <h1 className="text-2xl sm:text-4xl text-white font-bold w-full">Zero2Hero Builder Series</h1>
+            <p className="mt-4 text-gray-400 text-[18px]">
+              BNB Chain Zero2Hero Series is a 6-month online Bootcamp-hackathon-Incubator
+              program from February to July 2023 which will welcome developers to build tools for mass adoption.
+            </p>
+            <a href="">
+              <button
+                className="btn-primary2 text-white border border-white py-4 px-6 mt-3 text-center items-start justify-start hover:text-black hover:bg-white">Learn More</button>
+            </a>
+          </div>
+          <img src={zero2hero} className="flex w-full md:w-[30rem] md:h-[20rem] right-0 items-end justify-end" />
+        </div>
+
+        <div className="relative bg-black rounded-2xl w-[90%] mx-auto flex flex-col-reverse gap-6 items-center justify-center">
+          <div className="flex flex-col px-5 py-6 pb-10 items-center md:items-center">
+            <h1 className="text-2xl sm:text-4xl text-white font-bold w-full">MVB Program</h1>
+            <p className="mt-4 text-gray-400 text-[18px]">
+              A BNB-focused accelerator program between Binance Labs and BNB Chain to incubate projects;
+              helping them grow more organically through coaching, grants/investment, and network support.
+            </p>
+            <a href="">
+              <button
+                className="btn-primary2 text-white border border-white py-4 px-6 mt-3 text-center items-start justify-start hover:text-black hover:bg-white">Learn More</button>
+            </a>
+          </div>
+          <img src={mvb} className="flex w-full md:w-[30rem] md:h-[20rem] right-0 items-end justify-end" />
+        </div>
       </div>
-      <img src={buildbg} className="flex w-full md:w-[30rem] md:h-[30rem] right-0 items-end justify-end" />
-    </div>
+    </>
   );
 };
 

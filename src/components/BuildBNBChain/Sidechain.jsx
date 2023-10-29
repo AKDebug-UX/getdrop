@@ -5,7 +5,7 @@ const Sidechain = () => {
 
   return (
     <>
-      <div className="relative rounded-2xl w-[90%] mt-6 mx-auto flex flex-col-reverse lg:flex-row gap-6 items-center justify-between">
+      <div className="relative rounded-2xl w-[90%] mt-3 mx-auto flex flex-col-reverse lg:flex-row gap-6 items-center justify-between">
         <div className="flex flex-col px-3 items-center md:items-start">
           <h1 className="text-2xl sm:text-5xl text-left font-bold w-full">Scale with<span className="text-[#F3BA2F]"> BNB Sidechain</span></h1>
           <p className="mt-4 text-gray-400 text-left text-[20px]">BNB Sidechain is an infrastructure
