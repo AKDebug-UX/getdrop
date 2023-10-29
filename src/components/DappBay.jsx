@@ -8,7 +8,7 @@ const DappBay = () => {
       <div className="flex flex-col px-3 items-center md:items-start md:w-[60%]">
         <h1 className="text-2xl sm:text-5xl mt-3 font-bold">Discover dApps on<br /></h1>
         <h1 className="text-2xl sm:text-5xl font-bold my-4 text-white">DappBay</h1>
-        <p className="mt-4 text-black text-left text-[20px]">
+        <p className="mt-4 text-black text-left text-[15px] sm:text-[18px]">
           Easily navigate relevant dApps, swiftly explore and discover
           profitable early-stage projects, and effortlessly identify risky dApps on DappBay.
         </p>
