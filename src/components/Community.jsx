@@ -1,7 +1,4 @@
 import React from "react";
-import wallet from "../assets/images/wallet.png";
-import GetBNB from "../assets/images/GetBNB.png";
-import dApp from "../assets/images/dApp.png";
 import { Telegram } from "@material-ui/icons";
 
 const Community = () => {

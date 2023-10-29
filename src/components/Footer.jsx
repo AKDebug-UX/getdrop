@@ -2,6 +2,7 @@ import React from "react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  
   return (
     <>
       <div className="flex bg-[#fafafa] p-4 py-12 sm:pl-[5em] gap-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 text-center items-start justify-between text-black">

@@ -1,7 +1,5 @@
 import React from "react";
 import hero from "../assets/images/hero.png";
-import { Facebook, GitHub, Instagram, LinkedIn, Twitter } from "@material-ui/icons";
-import { NavLink } from "react-router-dom";
 import Navbar from "./Navbar";
 const Hero = () => {
 
