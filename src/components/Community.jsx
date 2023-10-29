@@ -1,55 +1,42 @@
 import React from "react";
+import wallet from "../assets/images/wallet.png";
+import GetBNB from "../assets/images/GetBNB.png";
+import dApp from "../assets/images/dApp.png";
 
 const Community = () => {
-  const skills = [
-    {
-      logo: "logo-html5",
-      level: "Advance",
-      count: 96,
-    },
-    {
-      logo: "logo-css3",
-      level: "Expect",
-      count: 80,
-    },
-    {
-      logo: "logo-nodejs",
-      level: "Beginner",
-      count: 40,
-    },
-    {
-      logo: "logo-react",
-      level: "Intermediate",
-      count: 80,
-    },
-  ];
   return (
-    <section id="skills" className="py-10 bg-gray-800 relative">
-      <div className="mt-8 text-gray-100 text-center">
-        <h3 className="text-2xl sm:text-4xl font-semibold">
-          My <span className="text-cyan-600">Skills</span>
-        </h3>
-        <p className="text-gray-400 mt-3 text-lg">My knowledge</p>
-        <div className="flex items-center justify-center mt-12 gap-10 flex-wrap">
-          {skills?.map((skill, i) => (
-            <div
-              key={i}
-              className="border-2 group border-cyan-600 relative min-w-[10rem] max-w-[16rem] bg-gray-900 p-10 rounded-xl"
-            >
-              <div
-                style={{
-                  background: `conic-gradient(rgb(8,145,170) ${skill.count}%,#ddd ${skill.count}%)`,
-                }}
-                className="w-32 h-32 flex items-center justify-center rounded-full"
-              >
-                <div className="text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center group-hover:text-cyan-600">
-                  <ion-icon name={skill.logo}></ion-icon>
-                </div>
-              </div>
-              <p className="text-xl mt-3">{skill.level}</p>
-            </div>
-          ))}
-        </div>
+    <section id="hireme" className="py-10 px-3 text-black mx-auto items-center justify-center w-full">
+      <div className="text-center">
+        <h1 className="text-2xl sm:text-5xl font-bold">
+          Get Involved, Be Part of the <br />  <span className="text-[#F3BA2F]">Community</span>
+        </h1>
+        <p className="text-gray-400 mt-3 block md:hidden text-center text-[15px]">BNB Chain is a global, decentralized network
+          with developers, validators, users, HODLers and enthusiasts.</p>
+        <p className="text-gray-400 mt-3 md:block hidden text-center text-[20px]">BNB Chain is a global, decentralized network
+          with developers,<br /> validators, users, HODLers and enthusiasts.</p>
+      </div>
+
+      <div className="py-5 mx-auto mt-6 mb-4 gap-5 md:flex md:flex-row grid grid-cols-3 items-center justify-center w-full md:w-[80%]">
+        <a className="bg-white px-9 py-5 rounded-2xl flex flex-col gap-4 items-center hover:text-white hover:bg-[#5765f1] shadow-lg w-full" href="https://discord.com/invite/QRTQvfhADQ">
+        <ion-icon name="logo-discord"></ion-icon>
+          <div>Discord</div>
+        </a>
+        <a className="bg-white px-9 py-5 rounded-2xl flex flex-col gap-4 items-center hover:text-white hover:bg-[#00acee] shadow-lg w-full" href="https://twitter.com/BNBChain">
+        <ion-icon name="logo-twitter"></ion-icon>
+          <div>Twitter</div>
+        </a>
+        <a className="bg-white px-9 py-5 rounded-2xl flex flex-col gap-4 items-center hover:text-white hover:bg-[#FF0000] shadow-lg w-full" href="https://www.youtube.com/channel/UCG9fZu6D4I83DStktBV0Ryw">
+          <img src={GetBNB} className="w-6 h-6" />
+          <div>YouTube</div>
+        </a>
+        <a className="bg-white px-9 py-5 rounded-2xl flex flex-col gap-4 items-center hover:text-white hover:bg-[#0088cc] shadow-lg w-full" href="https://t.me/bnbchain">
+        <ion-icon name="logo-telegram"></ion-icon>
+          <div>Telegram</div>
+        </a>
+        <a className="bg-white px-9 py-5 rounded-2xl flex flex-col gap-4 items-center hover:text-white hover:bg-black shadow-lg w-full" href="https://github.com/bnb-chain">
+          <img src={GetBNB} className="w-6 h-6" />
+          <div>GitHub</div>
+        </a>
       </div>
     </section>
   );

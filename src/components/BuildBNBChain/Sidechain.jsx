@@ -1,58 +1,45 @@
 import React from "react";
+import buildbg from "../../assets/images/bas-bg.png";
 
-const Community = () => {
-  const skills = [
-    {
-      logo: "logo-html5",
-      level: "Advance",
-      count: 96,
-    },
-    {
-      logo: "logo-css3",
-      level: "Expect",
-      count: 80,
-    },
-    {
-      logo: "logo-nodejs",
-      level: "Beginner",
-      count: 40,
-    },
-    {
-      logo: "logo-react",
-      level: "Intermediate",
-      count: 80,
-    },
-  ];
+const Sidechain = () => {
+
   return (
-    <section id="skills" className="py-10 bg-gray-800 relative">
-      <div className="mt-8 text-gray-100 text-center">
-        <h3 className="text-2xl sm:text-4xl font-semibold">
-          My <span className="text-cyan-600">Skills</span>
-        </h3>
-        <p className="text-gray-400 mt-3 text-lg">My knowledge</p>
-        <div className="flex items-center justify-center mt-12 gap-10 flex-wrap">
-          {skills?.map((skill, i) => (
-            <div
-              key={i}
-              className="border-2 group border-cyan-600 relative min-w-[10rem] max-w-[16rem] bg-gray-900 p-10 rounded-xl"
-            >
-              <div
-                style={{
-                  background: `conic-gradient(rgb(8,145,170) ${skill.count}%,#ddd ${skill.count}%)`,
-                }}
-                className="w-32 h-32 flex items-center justify-center rounded-full"
-              >
-                <div className="text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center group-hover:text-cyan-600">
-                  <ion-icon name={skill.logo}></ion-icon>
-                </div>
-              </div>
-              <p className="text-xl mt-3">{skill.level}</p>
-            </div>
-          ))}
+    <>
+      <div className="relative rounded-2xl w-[90%] mt-6 mx-auto flex flex-col-reverse lg:flex-row gap-6 items-center justify-between">
+        <div className="flex flex-col px-3 items-center md:items-start">
+          <h1 className="text-2xl sm:text-5xl text-left font-bold w-full">Scale with<span className="text-[#F3BA2F]"> BNB Sidechain</span></h1>
+          <p className="mt-4 text-gray-400 text-left text-[20px]">BNB Sidechain is an infrastructure
+            introduced to help developers and the application community to build and run their
+            dedicated blockchain as a focused value system for a massive number of users while
+            still maintaining a close connection with BNB Chain.
+          </p>
+        </div>
+        <img src={buildbg} className="flex w-[8rem] md:w-[18rem] right-0 items-end justify-end" />
+      </div>
+
+      <div className="flex p-5 pt-12 gap-4 md:flex-row flex-col text-left items-start justify-between md:px-[6%]">
+        <div className="flex flex-col items-start justify-start text-white w-full">
+          <h1 className="text-[20px] sm:text-2xl font-bold"><span className="text-[20px] text-[#F3BA2F]">// </span>Dedication</h1>
+          <div className="text-gray-400 mt-2 text-left text-[15px]">A blockchain dedicated to the application logic with the independent community governance and economy.</div>
+        </div>
+        <div className="flex flex-col items-start justify-start text-white w-full">
+          <h1 className="text-[20px] sm:text-2xl font-bold"><span className="text-[20px] text-[#F3BA2F]">// </span>Sustainability</h1>
+          <div className="text-gray-400 mt-2 text-left text-[15px]">BNB Sidechain is a high-performance blockchain with high TPS and ultra-low gas fees.</div>
         </div>
       </div>
-    </section>
+
+      <div className="flex p-5 gap-4 md:flex-row flex-col text-left items-start justify-between md:px-[6%]">
+        <div className="flex flex-col items-start justify-start text-white w-full">
+          <h1 className="text-[20px] sm:text-2xl font-bold"><span className="text-[20px] text-[#F3BA2F]">// </span>Integration</h1>
+          <div className="text-gray-400 mt-2 text-left text-[15px]">Projects that own a BNB Sidechain are also a part of the broader BNB Chain ecosystem.</div>
+        </div>
+        <div className="flex flex-col items-start justify-start text-white w-full">
+          <h1 className="text-[20px] sm:text-2xl font-bold"><span className="text-[20px] text-[#F3BA2F]">// </span>Support</h1>
+          <div className="text-gray-400 mt-2 text-left text-[15px]">BNB Sidechain is backed by the largest community of users and developers.</div>
+        </div>
+      </div>
+    </>
   );
 };
 
-export default Community;
+export default Sidechain;

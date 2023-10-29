@@ -1,63 +1,29 @@
 import React from "react";
-import hero from "../assets/images/IMG_20.jpg";
+import hero from "../assets/images/hero.png";
 import { Facebook, GitHub, Instagram, LinkedIn, Twitter } from "@material-ui/icons";
 import { NavLink } from "react-router-dom";
 import Navbar from "./Navbar";
 const Hero = () => {
 
-  const social_media = [
-    {
-      id: 1,
-      logo: <GitHub />,
-      url: "https://github.com/upraisertech",
-    },
-
-    {
-      id: 2,
-      logo: <LinkedIn />,
-      url: "https://linkedin.com/in/upraisertech",
-    },
-
-    {
-      id: 3,
-      logo: <Twitter />,
-      url: "https://www.twitter.com/upraisertech",
-    },
-
-    {
-      id: 4,
-      logo: <Instagram />,
-      url: "https://www.instagram.com/upraisertech",
-    },
-
-    {
-      id: 5,
-      logo: <Facebook />,
-      url: "https://www.facebook.com/upraisertech",
-    },
-  ];
-
   return (
-    <div className="">
+    <div className="h-auto">
       <Navbar />
-      <section className="flex py-10 mx-5 md:flex-row flex-col items-center">
+      <section className="flex pt-[7em] md:pt-[8em] pb-[2em] md:pb-[4em] lg:pb-[6em] mx-5 md:mx-12 lg:ml-12 lg:flex-row flex-col items-center justify-center">
         <div className="flex-1">
-          <div className="md:text-left text-center">
-            <h1 className="md:text-6xl text-5xl md:leading-normal leading-10 text-white font-bold">FREE
-              <span className="text-cyan-600"> BNB TOKEN</span> AIRDROP
+          <div className="mx-auto lg:text-left text-center">
+            <h1 className="md:text-7xl text-5xl leading-normal text-white font-bold">FREE
+              <span className="text-[#F3BA2F]"> BNB TOKEN</span><br /> AIRDROP
             </h1>
-            <div className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-white">
-              Get a random amount between 1 to 10 BNB right now! Ready for massive user access.
+            <div className="lg:text-lg text-md leading-normal mt-4 font-normal text-white">
+              Get a random amount between 1 to 10 BNB right now! <br /> Ready for massive user access.
             </div>
-            <button className="btn-primary mt-8">GET AIRDROP</button>
+            <button className="btn-primary bg-white py-5 mt-8 text-center w-full lg:w-[20em]">GET AIRDROP</button>
           </div>
         </div>
 
-        <div className="flex-1 flex items-center justify-center">
+        <div className="flex-1 lg:flex hidden items-center justify-center">
           <div className="flex-1 md:mt-0 mt-6 flex justify-center items-center">
-            <div className="lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm heroImg ">
-              
-            </div>
+            <img className="lg:w-[40em] h-[30em] relative" src={hero} />
           </div>
         </div>
       </section>

@@ -1,58 +1,28 @@
 import React from "react";
+import buildbg from "../../assets/images/home-sm.png";
 
-const Community = () => {
-  const skills = [
-    {
-      logo: "logo-html5",
-      level: "Advance",
-      count: 96,
-    },
-    {
-      logo: "logo-css3",
-      level: "Expect",
-      count: 80,
-    },
-    {
-      logo: "logo-nodejs",
-      level: "Beginner",
-      count: 40,
-    },
-    {
-      logo: "logo-react",
-      level: "Intermediate",
-      count: 80,
-    },
-  ];
+const Greenfield = () => {
+
   return (
-    <section id="skills" className="py-10 bg-gray-800 relative">
-      <div className="mt-8 text-gray-100 text-center">
-        <h3 className="text-2xl sm:text-4xl font-semibold">
-          My <span className="text-cyan-600">Skills</span>
-        </h3>
-        <p className="text-gray-400 mt-3 text-lg">My knowledge</p>
-        <div className="flex items-center justify-center mt-12 gap-10 flex-wrap">
-          {skills?.map((skill, i) => (
-            <div
-              key={i}
-              className="border-2 group border-cyan-600 relative min-w-[10rem] max-w-[16rem] bg-gray-900 p-10 rounded-xl"
-            >
-              <div
-                style={{
-                  background: `conic-gradient(rgb(8,145,170) ${skill.count}%,#ddd ${skill.count}%)`,
-                }}
-                className="w-32 h-32 flex items-center justify-center rounded-full"
-              >
-                <div className="text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center group-hover:text-cyan-600">
-                  <ion-icon name={skill.logo}></ion-icon>
-                </div>
-              </div>
-              <p className="text-xl mt-3">{skill.level}</p>
-            </div>
-          ))}
-        </div>
+    <div className="relative bg-black mt-6 rounded-2xl w-[90%] mx-auto flex flex-col-reverse lg:flex-row gap-6 items-center justify-between">
+      <div className="flex flex-col px-5 py-12 items-center md:items-start">
+        <h1 className="text-2xl sm:text-5xl text-left text-[#2d8749] font-bold w-full">BNB Greenfield</h1>
+        <p className="mt-4 text-white text-left text-[20px]">
+          A Decentralized Data Storage System and Economy
+        </p>
+        <p className="mt-4 text-gray-400 text-left text-[18px]">
+          BNB Greenfield is decentralized storage infrastructure within the
+          broader BNB Chain ecosystem where users and dApps can create,
+          store and exchange data with full ownership to form a new data economy.
+        </p>
+        <a href="">
+          <button
+            className="btn-primary2 text-white border border-white py-4 px-6 mt-3 text-center items-start justify-start hover:text-black hover:bg-white">Learn More</button>
+        </a>
       </div>
-    </section>
+      <img src={buildbg} className="flex w-full md:w-[30rem] md:h-[30rem] right-0 items-end justify-end" />
+    </div>
   );
 };
 
-export default Community;
+export default Greenfield;

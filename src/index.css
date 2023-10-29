@@ -7,12 +7,15 @@ html {
   @apply font-Poppins scroll-smooth;
 }
 body {
-  @apply bg-black;
+  @apply bg-[#1e2026];
   overflow-x: hidden;
   /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
 .btn-primary {
-  @apply bg-white font-semibold text-black md:mx-0 mx-auto rounded-lg py-3 px-6 flex items-center gap-2;
+  @apply font-bold text-black rounded-lg gap-2;
+}
+.btn-primary2 {
+  @apply font-bold rounded-lg gap-2;
 }
 .btn-primary:hover {
   @apply bg-[#F3BA2F];

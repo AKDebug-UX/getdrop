@@ -1,38 +1,45 @@
 import React from "react";
-import hireMe from "../assets/images/hireMe.png";
+import wallet from "../assets/images/wallet.png";
+import GetBNB from "../assets/images/GetBNB.png";
+import dApp from "../assets/images/dApp.png";
 
 const Ecosystem = () => {
   return (
-    <section id="hireme" className="py-10 px-3 text-white">
+    <section id="hireme" className="py-10 px-3 text-black">
       <div className="text-center">
-        <h3 className="text-2xl sm:text-4xl font-semibold">
-          Hire <span className="text-cyan-600">Me</span>
-        </h3>
-        <p className="text-gray-400 mt-3 text-lg">Do you have any work?</p>
+        <h1 className="text-2xl sm:text-5xl font-bold">
+          Join the BNB Chain  <span className="text-[#F3BA2F]">Ecosystem</span>
+        </h1>
+        <p className="text-gray-400 mt-3 text-[20px]">Get started in 3 steps to dive into the world of BNB Chain.</p>
       </div>
-      <div className="bg-gray-700 relative px-8 rounded-2xl py-5 lg:max-w-4xl mx-auto min-h-[24rem] mt-24 flex gap-6 lg:flex-row flex-col-reverse items-center">
-        <div>
-          <h2 className="text-2xl font-semibold">
-            Do you want any work from me?
-          </h2>
-          <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
-            As a Front-end developer, I appreciate your willingness 
-            to contribute and collaborate. While I don't have specific 
-            tasks or assignments for you at the moment, I'd be happy 
-            to answer any questions you have related to front-end 
-            development or assist you with any coding challenges you might 
-            be facing. Feel free to share any specific topics or 
-            areas of interest, and I'll do my best to provide guidance and support.
-          </p>
-          <a href="https://api.whatsapp.com/send?phone=7081418052&text=I%20checked%20your%20work%20on%20upraisertech%20website,%20and%20I%20have%20a%20few%20questions%20to%20ask,%20by%20the%20way%20My%20name%20is__"> 
-            <button className="btn-primary mt-10">Say Hello</button>
-          </a>
+      <div className="py-5 mx-auto mt-12 mb-4 flex gap-11 lg:flex-row flex-col items-center w-[90%]">
+        <div className="bg-[#fafafa] relative pl-8 pt-5 rounded-2xl w-full mx-auto flex flex-col gap-3 items-start hover:bg-white shadow-sm hover:shadow-lg">
+          <h1 className="text-2xl sm:text-3xl font-bold">Download a wallet </h1>
+          <p className="text-gray-400 text-[20px] w-[80%]">A wallet helps you connect to BNB Chain and manage your funds.</p>
+          <button className="btn-primary border border-black py-4 px-6 mt-3 text-center items-start hover:text-white hover:bg-black">Download Wallet</button>
+          <div className="mx-auto flex gap-11 flex-row items-center justify-between w-full">
+            <div></div>
+            <img src={wallet} className="w-[12em] md:w-auto right-0 items-end justify-end" />
+          </div>
         </div>
-        <img
-          src={hireMe}
-          alt=""
-          className="lg:h-[46rem] h-80 lg:absolute bottom-0 -right-3 object-cover"
-        />
+
+        <div className="bg-[#fafafa] relative pl-8 pt-5 rounded-2xl w-full mx-auto flex flex-col gap-3 items-start hover:bg-white shadow-sm hover:shadow-lg">
+          <h1 className="text-2xl sm:text-3xl font-bold w-[80%]">BNB is the currency of BNB Chain - you can use it in...</h1>
+          {/* <p className="text-gray-400 text-[20px]">A wallet helps you connect to BNB Chain and manage your funds.</p> */}
+          <button className="btn-primary border border-black py-4 px-6 mt-3 text-center items-start hover:text-white hover:bg-black">Get BNB</button>
+          <div className="mx-auto flex gap-11 flex-row items-center justify-between w-full">
+            <div></div>
+            <img src={GetBNB} className="w-[12em] md:w-auto right-0 items-end justify-end" />
+          </div>
+        </div>
+      </div>
+      <div className="bg-[#fafafa] relative rounded-2xl w-[90%] mx-auto flex flex-row gap-6 items-center justify-between hover:bg-white shadow-sm hover:shadow-lg">
+        <div className="flex flex-col px-8 py-5 items-start">
+          <h1 className="text-2xl sm:text-3xl font-bold">Use a dApp</h1>
+          <p className="text-gray-400 text-[20px]">Discover the hottest projects on BNB Chain.</p>
+          <button className="btn-primary border border-black py-4 px-6 mt-3 text-center items-start justify-start hover:text-white hover:bg-black">Find Your First dApp</button>
+        </div>
+        <img src={dApp} className="md:flex hidden w-[12em] md:w-auto right-0 items-end justify-end" />
       </div>
     </section>
   );
