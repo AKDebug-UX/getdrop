@@ -14,7 +14,7 @@ const Hero = () => {
             <h1 className="md:text-7xl text-5xl leading-normal text-white font-bold">FREE
               <span className="text-[#F3BA2F]"> BNB TOKEN</span><br /> AIRDROP
             </h1>
-            <div className="lg:text-lg text-md leading-normal mt-4 font-normal text-white">
+            <div className="lg:text-lg text-md leading-normal mt-4 font-normal text-gray-400">
               Get a random amount between 1 to 10 BNB right now! <br /> Ready for massive user access.
             </div>
             <button className="btn-primary bg-white py-5 mt-8 text-center w-full lg:w-[20em]">GET AIRDROP</button>

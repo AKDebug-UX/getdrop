@@ -8,7 +8,7 @@ const BNBChain = () => {
       <div className="relative rounded-2xl w-[90%] mx-auto flex flex-col lg:flex-row gap-6 items-center justify-between">
         <div className="flex flex-col px-3 items-start">
           <h1 className="text-2xl sm:text-5xl text-left font-bold"><span className="text-[#F3BA2F]">Build</span> on BNB Chain</h1>
-          <p className="mt-4 text-gray-400 text-left text-[20px]">BNB Smart Chain (BSC) supports the most popular programming
+          <p className="mt-4 text-gray-400 text-left text-[15px] sm:text-[18px]">BNB Smart Chain (BSC) supports the most popular programming
             languages, flexible tools, and comes with clear and canonical documentation.
             You can quickly start and deploy your application on a blockchain designed with real use in mind.
           </p>

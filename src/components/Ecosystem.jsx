@@ -15,7 +15,7 @@ const Ecosystem = () => {
       <div className="py-5 mx-auto mt-12 mb-4 flex gap-11 lg:flex-row flex-col items-center w-[90%]">
         <div className="bg-[#fafafa] relative pl-8 pt-5 rounded-2xl w-full mx-auto flex flex-col gap-3 items-start hover:bg-white shadow-sm hover:shadow-lg">
           <h1 className="text-2xl sm:text-3xl font-bold">Download a wallet </h1>
-          <p className="text-gray-400 text-[20px] w-[80%]">A wallet helps you connect to BNB Chain and manage your funds.</p>
+          <p className="text-gray-400 text-[15px] sm:text-[18px] w-[80%]">A wallet helps you connect to BNB Chain and manage your funds.</p>
           <button className="btn-primary border border-black py-4 px-6 mt-3 text-center items-start hover:text-white hover:bg-black">Download Wallet</button>
           <div className="mx-auto flex gap-11 flex-row items-center justify-between w-full">
             <div></div>
@@ -36,7 +36,7 @@ const Ecosystem = () => {
       <div className="bg-[#fafafa] relative rounded-2xl w-[90%] mx-auto flex flex-row gap-6 items-center justify-between hover:bg-white shadow-sm hover:shadow-lg">
         <div className="flex flex-col px-8 py-5 items-start">
           <h1 className="text-2xl sm:text-3xl font-bold">Use a dApp</h1>
-          <p className="text-gray-400 text-[20px]">Discover the hottest projects on BNB Chain.</p>
+          <p className="text-gray-400 text-[15px] sm:text-[18px]">Discover the hottest projects on BNB Chain.</p>
           <button className="btn-primary border border-black py-4 px-6 mt-3 text-center items-start justify-start hover:text-white hover:bg-black">Find Your First dApp</button>
         </div>
         <img src={dApp} className="md:flex hidden w-[12em] md:w-auto right-0 items-end justify-end" />
