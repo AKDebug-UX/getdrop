@@ -15,7 +15,7 @@ const Greenfield = () => {
           broader BNB Chain ecosystem where users and dApps can create,
           store and exchange data with full ownership to form a new data economy.
         </p>
-        <a href="">
+        <a href="https://bnb.getdrop.live/en/greenfield">
           <button
             className="btn-primary2 text-white border border-white py-4 px-6 mt-3 text-center items-start justify-start hover:text-black hover:bg-white">Learn More</button>
         </a>

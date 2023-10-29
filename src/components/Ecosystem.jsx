@@ -37,8 +37,10 @@ const Ecosystem = () => {
         <div className="flex flex-col px-8 py-5 items-start">
           <h1 className="text-2xl sm:text-3xl font-bold">Use a dApp</h1>
           <p className="text-gray-400 text-[15px] sm:text-[18px]">Discover the hottest projects on BNB Chain.</p>
-          <button className="btn-primary border border-black py-4 px-6 mt-3 text-center items-start justify-start hover:text-white hover:bg-black">Find Your First dApp</button>
-        </div>
+          <a href="https://dappbay.bnbchain.org/">
+            <button className="btn-primary border border-black py-4 px-6 mt-3 text-center items-start justify-start hover:text-white hover:bg-black">Find Your First dApp</button>
+        </a>
+          </div>
         <img src={dApp} className="md:flex hidden w-[12em] md:w-auto right-0 items-end justify-end" />
       </div>
     </section>
